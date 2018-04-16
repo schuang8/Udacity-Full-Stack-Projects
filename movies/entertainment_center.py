@@ -6,9 +6,8 @@ import fresh_tomatoes
 import media
 
 
-""" Create a Movie class with a movie title,
-    description, poster link, youtube trailer link
-"""
+# Create a Movie class with a movie title,
+# description, poster link, youtube trailer link
 toy_story = media.Movie("Toy Story",
                         "A story and his living toys.",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
