@@ -19,6 +19,10 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background: linear-gradient(to bottom right, rgb(16,16,16), rgb(96,96,96));
+        }
+        .container {
+            color: rgb(25, 25, 112);
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -40,7 +44,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: rgb(64,64,64);
             cursor: pointer;
         }
         .scale-media {
@@ -101,8 +105,6 @@ main_page_content = '''
         </div>
       </div>
     </div>
-
-    <!-- Add Movie Model -->
 
     <!-- Main Page Content -->
     <div class="container">

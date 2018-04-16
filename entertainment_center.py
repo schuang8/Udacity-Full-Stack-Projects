@@ -33,6 +33,3 @@ ipman = media.Movie("Ip Man",
 
 movies = [toy_story, avatar, inception, transformers, flashpoint, ipman]
 fresh_tomatoes.open_movies_page(movies)
-
-print(media.Movie.__name__)
-print(media.Movie.__module__)
