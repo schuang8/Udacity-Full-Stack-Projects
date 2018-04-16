@@ -1,2 +1,10 @@
+# file extensions
 *.pyc
-*.html
+./movies/*.html
+*.jpg
+*.zip
+
+# folders
+./rename_files/__MACOSX/
+./rename_files/secret_message
+
