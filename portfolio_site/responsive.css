@@ -1,0 +1,99 @@
+@media screen and (max-width: 586px) {
+    .main__h2-title {
+        color: #7d97ad;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .header__logo {
+        height: 50px;
+        margin-left: 8px;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .main__sample {
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main__sample-img  {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 587px) and (max-width: 824px) {
+    #main__matlab {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main__h2-title {
+        color: #7d97ad;
+    }
+
+    .main__sample {
+        margin-right: 5px;
+        margin-left: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main__sample-img  {
+        height: 160px;
+        display: block;
+        
+        padding-bottom: 8px;
+    }
+
+    .main__sample-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 266px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 825px) and (max-width: 1199px) {
+    .main__sample-img  {
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    .main__sample {
+        margin-right: 5px;
+        margin-left: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main__sample-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 366px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main, header {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .header__title {
+        float: right;
+        margin-right: 5px;
+    }
+}
+
